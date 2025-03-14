@@ -5,12 +5,33 @@
 {% endblock title %}
 
 {% block content %}
-<h1>{{ section.title }}</h1>
-<ul>
-  {% for page in section.pages %}
-  <li>
-    <a href="{{ page.permalink | safe }}">{{ page.title }}</a>
-  </li>
-  {% endfor %}
-</ul>
+  <article class="four-fifth center">
+    <h1>{{ section.title }}</h1>
+
+    {% for page in section.pages %}
+      <article class="card">
+
+        <header>
+          <h3>
+            {{ page.title }}
+          </h3>
+        </header>
+  
+        <div>
+          published: {{ page.date | date(format="%Y-%m-%d")}} &nbsp;
+        </div>
+  
+        <section class="center">
+          {{ page.summary | safe}}
+        </section>
+  
+        <footer>
+          <a href="{{ page.permalink | safe }}#continue-reading" class="button">
+            read more
+          </a>
+        </footer>
+  
+      </article>
+    {% endfor %}
+  </article>
 {% endblock content %}
