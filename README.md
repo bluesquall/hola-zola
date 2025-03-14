@@ -1,3 +1,6 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/61b5588c-51be-4495-9bc2-ecbed0507ac8/deploy-status)](https://app.netlify.com/sites/hola-zola/deploys)
+_____________
+
 This is a sandbox to play with [zola] and [SASS]. There may also be some dev env tinkering with tmux & neovim.
 
 We start by following [the tutorial by Davide Del Papa][ddp-tutorial].
