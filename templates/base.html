@@ -20,6 +20,16 @@
     </style>
   </head>
   <body>
-    {% block content %}{% endblock content %}
+    <nav class="demo">
+      <a href="/" class="brand">
+        <span>
+          HZ
+        </span>
+      </a>
+    </nav>
+
+    <main class="flex five">
+      {% block content %}{% endblock content %}
+    </main>
   </body>
 </html>
