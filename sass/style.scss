@@ -1,8 +1,9 @@
 @charset "UTF-8";
 
+@use "_solarized.scss";
 @use "_typography.scss";
 
-$primary-color: #333;
+$primary-color: solarized.$base00;
 
 nav {
   ul {
