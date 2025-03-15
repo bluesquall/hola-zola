@@ -7,21 +7,34 @@ $primary-color: solarized.$base00;
 
 nav {
   ul {
+    position: fixed;
+    top: 0;
+    width: 100%;
     margin: 0;
     padding: 0;
     list-style: none;
+    overflow: hidden;
   }
 
-  li { display: inline-block }
+  li { 
+    float: right;
+  }
 
-  a {
+  li a {
     display: block;
     padding: 6px 12px;
+    // TODO: change to em|rem units
+    text-align: center;
     text-decoration: none;
   }
 }
 
 body {
+  color: "yellow";
+
+}
+
+.content {
   font: 100% typography.$serif-stack;
   color: $primary-color;
 }
