@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+$font-stack: Palatino,"Palatino Linotype",Palatino LT STD,Book Antiqua,Georgia,serif;
+$primary-color: #333;
+
+nav {
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  li { display: inline-block }
+
+  a {
+    display: block;
+    padding: 6px 12px;
+    text-decoration: none;
+  }
+}
+
+body {
+  font: 100% $font-stack;
+  color: $primary-color;
+}
