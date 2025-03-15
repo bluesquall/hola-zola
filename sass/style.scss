@@ -3,8 +3,6 @@
 @use "_solarized.scss";
 @use "_typography.scss";
 
-$primary-color: solarized.$base00;
-
 nav {
   ul {
     position: fixed;
@@ -32,5 +30,4 @@ nav {
 .content {
   padding: 13px;
   font: 100% typography.$serif-stack;
-  color: $primary-color;
 }
