@@ -3,6 +3,8 @@ $sans-stack: Helvetica, sans-serif;
 $mono-stack: Mononoki, monospace;
 $base-font-multiplier: 1;
 
+$monogram-size: 2em;
+$monogram-padding: 1em;
 
 // rem mixin from sparkbox: https://sparkbox.com/foundry/scss_rem_mixin_now_with_a_better_fallback
 @mixin font-size( $decimal-size, $keyword: null ) {
@@ -14,6 +16,6 @@ $base-font-multiplier: 1;
 
 
 .monogram {
-  padding: 1em;
-  font-size: 2em;
+  padding: $monogram-padding;
+  font-size: $monogram-size;
 }

@@ -20,12 +20,16 @@ nav {
 
   li a {
     display: block;
-    padding: 6px 12px;
-    // TODO: change to em|rem units
+    padding: .2em .4em;
+    // TODO: change to rem units
     text-align: center;
     text-decoration: none;
   }
 }
+
+body {
+  padding-top: typography.$monogram-size + 2 * typography.$monogram-padding;
+} 
 
 .content {
   padding: 13px;
