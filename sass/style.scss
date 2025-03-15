@@ -10,6 +10,7 @@ nav {
  
   ul {
     display: flex;
+    justify-content: flex-end;
     position: fixed;
     top: 0;
     width: 100%;
@@ -21,11 +22,10 @@ nav {
 
   li { 
     display: block-item;
+    padding: 0.2rem;
   }
 
   li a {
-    padding: 0.2rem;
-    text-align: right;
     text-decoration: none;
   }
 }
