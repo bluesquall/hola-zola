@@ -1,0 +1,12 @@
+$serif-stack: Palatino,"Palatino Linotype",Palatino LT STD,Book Antiqua,Georgia,serif;
+$sans-stack: Helvetica, sans-serif;
+$mono-stack: Mononoki, monospace;
+$base-font-multiplier: 1;
+
+
+// rem mixin from sparkbox: https://sparkbox.com/foundry/scss_rem_mixin_now_with_a_better_fallback
+@mixin font-size( $decimal-size, $keyword: null ) {
+  @if $keyword{ font-size: $keyword; }
+  @else { font-size: $decimal-size * $base-font-multiplier * 16px;}
+  font-size: $decimal-size * 1rem;
+}

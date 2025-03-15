@@ -1,6 +1,7 @@
 @charset "UTF-8";
 
-$font-stack: Palatino,"Palatino Linotype",Palatino LT STD,Book Antiqua,Georgia,serif;
+@use "_typography.scss";
+
 $primary-color: #333;
 
 nav {
@@ -20,6 +21,6 @@ nav {
 }
 
 body {
-  font: 100% $font-stack;
+  font: 100% typography.$serif-stack;
   color: $primary-color;
 }
