@@ -10,3 +10,10 @@ $base-font-multiplier: 1;
   @else { font-size: $decimal-size * $base-font-multiplier * 16px;}
   font-size: $decimal-size * 1rem;
 }
+
+
+
+.monogram {
+  padding: 1em;
+  font-size: 2em;
+}
