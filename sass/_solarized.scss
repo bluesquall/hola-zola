@@ -27,7 +27,7 @@ $green:     #859900;
     h1,h2,h3,h4,h5,h6 {color:$accent}
 }
 .light { @include rebase($base3,$base2,$base1,$base0,$base00,$base01,$base02,$base03)}
-html .dark  { @include rebase($base03,$base02,$base01,$base00,$base0,$base1,$base2,$base3)}
+html, .dark  { @include rebase($base03,$base02,$base01,$base00,$base0,$base1,$base2,$base3)}
 
 @media screen and (prefers-color-scheme: light) {
   html {
