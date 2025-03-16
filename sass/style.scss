@@ -12,13 +12,16 @@ nav {
   top: 0;
   width: 100%;
   margin: 0;
-  padding: 0.2rem;
  
   a {
     text-decoration: none;
   }
   
-  // div { display: inline-block; }
+  div { 
+    display: flex;
+    justify-content: flex-start;
+    padding: 0.2rem;
+  }
  
   ul {
     display: flex;
@@ -35,7 +38,7 @@ nav {
 }
 
 body {
-  // padding-top: typography.$monogram-size + 2 * typography.$monogram-padding;
+  padding-top: typography.$monogram-size + 2 * typography.$monogram-padding;
 } 
 
 .content {
