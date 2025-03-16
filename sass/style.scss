@@ -33,12 +33,12 @@ nav {
     display: flex;
     justify-content: flex-end;
     list-style: none;
-    padding: $nav-padding;
+    padding: 2 * $nav-padding;
   }
 
   li { 
     display: inline-block;
-    padding: $nav-padding;
+    padding: 2 * $nav-padding;
   }
 
 }
