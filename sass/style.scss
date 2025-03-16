@@ -8,6 +8,10 @@ nav {
   justify-content: space-between;
   align-items: center;
  
+  a {
+    text-decoration: none;
+  }
+ 
   ul {
     display: flex;
     justify-content: flex-end;
@@ -25,9 +29,6 @@ nav {
     padding: 0.2rem;
   }
 
-  li a {
-    text-decoration: none;
-  }
 }
 
 body {
