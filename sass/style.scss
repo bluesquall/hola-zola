@@ -8,22 +8,21 @@ nav {
   justify-content: space-between;
   align-items: center;
  
+  position: fixed;
+  top: 0;
+  width: 100%;
+  margin: 0;
+  padding: 0.2rem;
+ 
   a {
     text-decoration: none;
   }
   
-  div {
-    display: inline-block;
-  }
+  // div { display: inline-block; }
  
   ul {
     display: flex;
     justify-content: flex-end;
-    position: fixed;
-    top: 0;
-    width: 100%;
-    margin: 0;
-    padding: 0.2rem;
     list-style: none;
     overflow: hidden;
   }
