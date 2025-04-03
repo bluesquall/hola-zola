@@ -6,6 +6,12 @@
 
 {% block content %}
 
+  {% if section.content %}
+    <div>
+      {{ section.content | safe }}
+    </div>
+  {% endif %}
+
   <ul>
     {% for page in section.pages %}
       <li>
