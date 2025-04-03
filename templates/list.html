@@ -10,7 +10,9 @@
     {% for page in section.pages %}
       <li>
         <a href="{{ page.permalink | safe }}" >
-          {{ page.date | date(format="%Y-%m-%d") }} &nbsp;
+          {% if page.date %}
+            {{ page.date | date(format="%Y-%m-%d") }} &nbsp;
+          {% endif %}
           {{ page.title }}
         </a>
       </li>
