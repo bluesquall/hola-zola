@@ -50,4 +50,9 @@ body {
 .content {
   padding: 0.2rem;
   font: 100% typography.$serif-stack;
+
+  ul {
+    list-style: circle outside none;
+    padding: 2rem;
+  }
 }
