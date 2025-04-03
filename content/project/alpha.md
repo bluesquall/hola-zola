@@ -8,4 +8,4 @@ template = "project.html"
 selected = true
 +++
 
-&alpha
+&alpha;
