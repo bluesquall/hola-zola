@@ -19,7 +19,13 @@ To avoid distracting from the content, *all* text & links are rendered in monoto
 
 ### navigation bar (header) & footer
 
-These elements use the (emphasized)/(background highlight) pairing, either `base1/base02` or `base01/base2`.
+These elements use the (secondary)/(background highlight) pairing, either `base01/base02` or `base1/base2`.
+
+### code
+
+Inline code uses the (emphasized)/(background highlight) pairing, either `base1/base02` or `base01/base2`.
+
+Code blocks *without* syntax highlighting also use the (emphasized)/(background highlight) pairing.
 
 ### accent colors
 
