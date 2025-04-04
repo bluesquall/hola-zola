@@ -109,7 +109,7 @@ I like to separate footnotes and other links under a horizontal break, like what
 _____________
 [^s]: citation needed
 [^t]: citation needed
-[^id]: We get footnotes entirely for free, in fact. But you must be careful to put them at the end of your source document, or they will just show up in-line.
+[^id]: We get footnotes entirely for free, in fact. But you must be careful to put them at the end of your source document, or they will just show up in-line (like this[^f]). That will become less of a problem if & when I implement sidenotes & margin notes.
 
 [solarized]: https://ethanschoonover.com/solarized/
 [tufte-css]: https://edwardtufte.github.io/tufte-css/
