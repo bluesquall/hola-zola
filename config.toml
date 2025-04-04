@@ -1,3 +1,5 @@
+title = "Hola zola!"
+
 # The URL the site will be built for
 base_url = "https://hola-zola.netlify.app"
 
