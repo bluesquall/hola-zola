@@ -3,8 +3,8 @@ $sans-stack: "Gill Sans", Helvetica, sans-serif;
 $mono-stack: "Fira Code", Mononoki, monospace;
 $base-font-multiplier: 1;
 
-$monogram-size: 1em;
-$monogram-padding: .2em;
+$monogram-size: 1rem;
+$monogram-padding: .2rem;
 $monogram-weight: bold;
 
 // rem mixin from sparkbox: https://sparkbox.com/foundry/scss_rem_mixin_now_with_a_better_fallback
@@ -14,7 +14,16 @@ $monogram-weight: bold;
   font-size: $decimal-size * 1rem;
 }
 
-
+* {
+  h1 { font-size: 2rem };
+  h2 { font-size: 1.4rem };
+  h3 { font-size: 1.2rem };
+  
+  h1 h2 h3 h4 {
+    font-weight: bold;
+    padding: .2rem;
+  };
+}
 
 .monogram {
   padding: $monogram-padding;
