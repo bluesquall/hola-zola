@@ -30,8 +30,8 @@ $green:     #859900;
     a, a:active, a:visited, code.url { color: $accent; }
 }
 @mixin accentize($accent) {
-    @include accentize_hyperlink($accent)
-    @include accentize_header($accent)
+    @include accentize_hyperlink($accent);
+    @include accentize_header($accent);
 }
 .light { @include rebase($base3,$base2,$base1,$base0,$base00,$base01,$base02,$base03)}
 html, .dark  { @include rebase($base03,$base02,$base01,$base00,$base0,$base1,$base2,$base3)}
