@@ -45,7 +45,9 @@ html, .dark  { @include rebase($base03,$base02,$base01,$base00,$base0,$base1,$ba
 html * {
     color-profile: sRGB;
     rendering-intent: auto;
-    
+}
+
+.content {
     @include accentize_hyperlink($cyan);
     @include accentize_header($orange);
 }
