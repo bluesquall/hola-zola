@@ -47,11 +47,11 @@ The theme has the following font stacks:
 
 Here is an unordered list of basic markdown styles:
 
-- *italic*
-- _bold_
-  - can also be achieved with double asterisks: **bold**
-- `code`
-- underlined text is reserved for hyperlinks, if you enable old-school mode
+- *italic* and _italic_ show `<em>`phasis
+- __bold__ and **bold** show how `<strong>` you are typing
+- ***bitalic*** works in markdown, but tends to confuse syntax highlighters
+- `code` should be monospaced for many reasons
+- <u>underlined</u> text is reserved for <ins>hyperlinks</ins>, if you enable old-school mode
 - ~~strikethrough~~ probably won't be used much on your website, but I could be wrong.
 
 ### links
@@ -103,12 +103,13 @@ These could really be covered in a list, but let's use subsections and expand on
 
 ### mark
 
-### hline
+### hrule
 
-I like to separate footnotes and other links under a horizontal break, so here is one.
+I like to separate footnotes and other links under a horizontal break, like what you might draw with a *rule*r, so here is one.
 _____________
 [^s]: citation needed
 [^t]: citation needed
+[^id]: We get footnotes entirely for free, in fact. But you must be careful to put them at the end of your source document, or they will just show up in-line.
 
 [solarized]: https://ethanschoonover.com/solarized/
 [tufte-css]: https://edwardtufte.github.io/tufte-css/
