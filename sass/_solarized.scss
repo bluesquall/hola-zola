@@ -46,6 +46,6 @@ html * {
     color-profile: sRGB;
     rendering-intent: auto;
     
-    @include accentize_hyperlink($cyan)
-    @include accentize_header($orange)
+    @include accentize_hyperlink($cyan);
+    @include accentize_header($orange);
 }
