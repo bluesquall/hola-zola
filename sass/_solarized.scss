@@ -19,13 +19,19 @@ $green:     #859900;
     background-color:$rebase03;
     color:$rebase0;
     * { color:$rebase0; }
-    h1,h2,h3,h4,h5,h6 { color:$rebase1; border-color: $rebase0; }
+    h1,h2,h3,h4,h5,h6 { color:$rebase1; }
     a, a:active, a:visited { color: $rebase1; }
-    nav { background-color:$rebase02; }
+    nav { color: $rebase01; background-color: $rebase02; }
+}
+@mixin accentize_header($accent) {
+    h1,h2,h3,h4,h5,h6 {color: $accent}
+}
+@mixin accentize_hyperlink($accent) {
+    a, a:active, a:visited, code.url { color: $accent; }
 }
 @mixin accentize($accent) {
-    a, a:active, a:visited, code.url { color: $accent; }
-    h1,h2,h3,h4,h5,h6 {color:$accent}
+    @include accentize_hyperlink($accent)
+    @include accentize_header($accent)
 }
 .light { @include rebase($base3,$base2,$base1,$base0,$base00,$base01,$base02,$base03)}
 html, .dark  { @include rebase($base03,$base02,$base01,$base00,$base0,$base1,$base2,$base3)}
@@ -39,4 +45,7 @@ html, .dark  { @include rebase($base03,$base02,$base01,$base00,$base0,$base1,$ba
 html * {
     color-profile: sRGB;
     rendering-intent: auto;
+    
+    @include accentize_hyperlink($cyan)
+    @include accentize_header($orange)
 }
