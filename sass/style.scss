@@ -5,8 +5,16 @@
 
 $nav-padding: 0.1rem;
 
+$min-link-height: 32px;
+$min-link-width: 32px;
+
 img, embed, object, video {
   max-width: 100%;
+}
+
+nav, a, button {
+  min-height: $min-link-height;
+  min-width: $min-link-width;
 }
 
 nav {
