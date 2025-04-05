@@ -51,7 +51,8 @@ body {
 } 
 
 .content {
-  padding: 0.2rem;
+  margin: max(1rem, 2%);
+  padding: min(0.2rem, 1%);
   font: 100% typography.$serif-stack;
 
   ul {
