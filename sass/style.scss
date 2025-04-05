@@ -5,7 +5,8 @@
 
 $nav-padding: 0.1rem;
 
-* {
+img, embed, object, video {
+  max-width: 100%;
 }
 
 nav {
