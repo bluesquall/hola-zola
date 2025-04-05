@@ -1,0 +1,17 @@
+
+@use "_solarized.scss";
+
+$size: 1rem;
+$padding: .2rem;
+$weight: bold;
+
+.monogram {
+  padding: $padding;
+  font-size: $size;
+  font-weight: $weight;
+  text-decoration: none;
+
+  color: solarized.$yellow;
+}
+
+

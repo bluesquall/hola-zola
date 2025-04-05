@@ -3,10 +3,6 @@ $sans-stack: "Gill Sans", Helvetica, sans-serif;
 $mono-stack: "Fira Code", Mononoki, monospace;
 $base-font-multiplier: 1;
 
-$monogram-size: 1rem;
-$monogram-padding: .2rem;
-$monogram-weight: bold;
-
 // rem mixin from sparkbox: https://sparkbox.com/foundry/scss_rem_mixin_now_with_a_better_fallback
 @mixin font-size( $decimal-size, $keyword: null ) {
   @if $keyword{ font-size: $keyword; }
@@ -25,9 +21,3 @@ $monogram-weight: bold;
   };
 }
 
-.monogram {
-  padding: $monogram-padding;
-  font-size: $monogram-size;
-  font-weight: $monogram-weight;
-  text-decoration: none;
-}
