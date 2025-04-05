@@ -55,8 +55,8 @@ nav {
 }
 
 body {
-  padding-top: 1.6 * typography.$monogram-size + 2 * typography.$monogram-padding;
   margin: 0;
+  padding-top: max( 1.2*$min-link-height, 1.6 * typography.$monogram-size + 2 * typography.$monogram-padding);
 } 
 
 .content {
